@@ -1,9 +1,18 @@
-// index.js
+
 import { createApp } from 'vue';
 import App from './App.vue';
-import router from './router/index.js'; // Importa el enrutador desde la carpeta src/router
-import NavbarWeb from './src/components/NavbarWeb/NavbarWeb.vue'; // Importa el componente NavbarWeb
-import HomePage from './src/components/HomePage/HomePage.vue'; // Importa el componente HomePage
+import router from './router'; // Importa el enrutador desde la carpeta src/router
+import NavbarWeb from './components/NavbarWeb/NavbarWeb.vue'; // Importa el componente NavbarWeb
+import HomePage from './components/HomePage/HomePage.vue'; // Importa el componente HomePage
+
+// import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
+
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap-vue/dist/bootstrap-vue.css';
+
+
 
 const app = createApp(App);
 

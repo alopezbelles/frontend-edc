@@ -1,16 +1,16 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomePage from '@/components/HomePage/HomePage.vue';
-import AboutPage from '@/components/AboutPage/AboutPage.vue';
+
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap';
+
 
 const routes = [
   {
     path: '/',
     component: HomePage,
   },
-  {
-    path: '/about',
-    component: AboutPage,
-  },
+
 ];
 
 const router = createRouter({

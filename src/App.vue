@@ -1,21 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <NavbarWeb/> 
   <HomePage msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-// import NavbarWeb from '@/components/NavbarWeb/NavbarWeb.vue'
-
+import NavbarWeb from '@/components/NavbarWeb/NavbarWeb.vue'
 import HomePage from '@/components/HomePage/HomePage.vue'
 
 export default {
   name: 'App',
   components: {
+    NavbarWeb, 
     HomePage,
-    // NavbarWeb
   }
 }
 </script>
+
 
 <style>
 #app {

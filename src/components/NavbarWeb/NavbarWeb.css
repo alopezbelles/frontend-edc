@@ -1,9 +1,25 @@
-.navbar {
-    background-color: #333;
+.custom-navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.custom-navbar-brand {
+  font-size: 1.5rem;
+  color: white; 
+}
+
+.custom-nav-item {
+  margin-right: 15px;
+  color: white; 
+
+}
+
+/* Colapsar el menú en pantallas pequeñas */
+@media (max-width: 991px) {
+  .custom-navbar {
+    position: static;
   }
-  .navbar-brand {
-    font-size: 1.5rem;
-  }
-  .nav-item {
-    margin-right: 15px;
-  }
+}

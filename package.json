@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "scripts": {
-    "serve": "vue-cli-service serve ./example/main.js --open",
+    "serve": "vue-cli-service serve ./src/index.js --open",
     "build": "vue-cli-service build --name frontend-edc --entry ./src/index.js --target lib",
     "lint": "vue-cli-service lint",
     "prepublishOnly": "npm run lint && npm run build"
@@ -18,8 +18,11 @@
   ],
   "dependencies": {
     "bootstrap": "^5.3.1",
+    "bootstrap-vue": "^2.23.1",
     "core-js": "^3.8.3",
-    "vue": "^3.2.36",
+    "jquery": "^3.7.0",
+    "popper.js": "^1.16.1",
+    "vue": "^3.3.4",
     "vue-router": "^4.2.4"
   },
   "devDependencies": {
