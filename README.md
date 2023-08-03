@@ -1,6 +1,44 @@
 
 
+
+
 # frontend-edc
+
+## Usage
+```HTML
+<HomePage :text="hello"></HomePage>
+```
+```javascript
+import { HomePage } from 'frontend-edc'
+
+export default {
+  components: {
+    HomePage
+  }
+}
+```
+## Installation
+```
+npm install frontend-edc
+```
+
+## Usage
+```HTML
+<NavbarWeb :text="hello"></NavbarWeb>
+```
+```javascript
+import { NavbarWeb } from 'frontend-edc'
+
+export default {
+  components: {
+    NavbarWeb
+  }
+}
+```
+## Installation
+```
+npm install frontend-edc
+```
 
 ## Usage
 ```HTML

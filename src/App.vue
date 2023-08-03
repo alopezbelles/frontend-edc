@@ -4,12 +4,15 @@
 </template>
 
 <script>
-import HomePage from '@/components/HomePage.vue'
+// import NavbarWeb from '@/components/NavbarWeb/NavbarWeb.vue'
+
+import HomePage from '@/components/HomePage/HomePage.vue'
 
 export default {
   name: 'App',
   components: {
-    HomePage
+    HomePage,
+    // NavbarWeb
   }
 }
 </script>
