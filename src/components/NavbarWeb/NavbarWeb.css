@@ -1,25 +1,29 @@
 .custom-navbar {
-  background-color: #333;
+  background-color: #84a37c;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  height: 8%;
 }
 
 .custom-navbar-brand {
   font-size: 1.5rem;
-  color: white; 
+  color: white;
 }
 
 .custom-nav-item {
   margin-right: 15px;
-  color: white; 
-
+  color: white;
 }
 
-/* Colapsar el menú en pantallas pequeñas */
+/* Estilos para el menú colapsado */
 @media (max-width: 991px) {
   .custom-navbar {
-    position: static;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el navbar aparezca por encima del contenido colapsado */
   }
 }
